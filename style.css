@@ -1,0 +1,51 @@
+body{
+    background-color: #393636;
+    color: #18eec9db;
+    margin: 0%;
+    padding: 0px;
+}
+.heading{
+    text-align: center;
+}
+.players{
+    display: flex;
+    justify-content: center;
+}
+.player-{
+    margin: 3%;
+    margin-top: 0%;
+
+}
+footer{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+    color: white;
+}
+h1{
+    font-family: 'Nerko One', cursive;
+    font-size: 7rem;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+   .players{
+       flex-wrap: wrap;
+   }
+   h1{
+       font-size: 4rem;
+   }
+   img{
+       width: 50%;
+   }
+  }
+  .p{
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 0%;
+  }
